@@ -6,9 +6,10 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<body>
 	<%
-		String color = request.getParameter("color");
+		String web = request.getParameter("web");
+		response.sendRedirect(web);
 	%>
-<body bgcolor="<%=color%>">
 </body>
 </html>
